@@ -16,7 +16,7 @@ namespace WAG_fast
     public class TestBase
     {
       protected  IWebDriver firefox;
-      WebDriverWait wait;
+    //  WebDriverWait wait;
 
         [SetUp]
       public void StartBrowser()

@@ -37,7 +37,7 @@ namespace WAG_fast
 
         public void FindPrice()
         {
-            Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0,1)!="8");
+            Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0,1)!="0");
         }
 
 

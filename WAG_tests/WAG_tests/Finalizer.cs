@@ -7,7 +7,7 @@ using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Firefox;
 using NUnit.Framework;
 
-namespace WAG_tests
+namespace WAG_fast
 {
 
     [SetUpFixture]

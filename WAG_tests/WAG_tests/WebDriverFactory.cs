@@ -14,7 +14,7 @@ using OpenQA.Selenium.PhantomJS;
 
 
 
-namespace WAG_tests
+namespace WAG_fast
 {
     public class WebDriverFactory
     {

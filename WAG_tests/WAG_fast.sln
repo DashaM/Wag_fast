@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAG_tests", "WAG_tests\WAG_tests.csproj", "{7A7D5019-9434-445C-9102-7A384B3B0EFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAG_fast", "WAG_tests\WAG_fast.csproj", "{7A7D5019-9434-445C-9102-7A384B3B0EFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

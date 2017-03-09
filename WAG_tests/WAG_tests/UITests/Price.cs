@@ -17,6 +17,7 @@ namespace WAG_fast
         { 
             GoToProductPage("https://www.whiteaway.com/hvidevarer/vaskemaskine/frontbetjent-vaskemaskine/product/blomberg-bwg486w0/");
             FindPrice();
+            //test
         }
 
 

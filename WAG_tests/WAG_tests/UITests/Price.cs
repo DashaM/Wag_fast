@@ -69,7 +69,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckTrettiNo()
         {
-            GoToProductPage("https://www.tretti.no/hvitevarer/torketrommel/kondens-torketrommel/product/siemens-wt47w568dn/");
+            GoToProductPage("https://www.tretti.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/bosch-wat283l8sn/");
             FindPrice();
         }
 

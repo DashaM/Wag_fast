@@ -34,13 +34,13 @@ namespace WAG_fast
         public void FindPrice()
         {
 
-            if (firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) == "7")
+            if (firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) == "0")
             {
                 Screenshot.Snap();
                 Trace.WriteLine("Check out why the test failed. See screenshot", "StateS");
             }
 
-            Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) != "7");
+            Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) != "0");
 
         }
 

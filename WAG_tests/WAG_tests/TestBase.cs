@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
-using OpenQA.Selenium.Support.UI;
-using OpenQA.Selenium.Firefox;
 using NUnit.Framework;
+using System.Diagnostics;
 
 
 namespace WAG_fast
@@ -15,7 +11,7 @@ namespace WAG_fast
     [TestFixture()]
     public class TestBase
     {
-      protected  IWebDriver firefox;
+      public static IWebDriver firefox;
     //  WebDriverWait wait;
 
         [SetUp]
@@ -37,7 +33,15 @@ namespace WAG_fast
 
         public void FindPrice()
         {
-            Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0,1)!="0");
+
+            if (firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) == "0")
+            {
+                Screenshot.Snap();
+                Trace.WriteLine("Check out why the test failed. See screenshot", "StateS");
+            }
+
+            Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) != "0");
+
         }
 
 

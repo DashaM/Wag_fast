@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="Finalizer.cs" />
     <Compile Include="UITests\Price.cs" />
+    <Compile Include="Screenshot.cs" />
     <Compile Include="WebDriverFactory.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

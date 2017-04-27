@@ -38,6 +38,7 @@ namespace WAG_fast
             {
                 Screenshot.Snap();
                 Trace.WriteLine("Check out why the test failed. See screenshot", "StateS");
+                Trace.WriteLine(firefox.FindElement(By.ClassName("vip__price-main")).Text);
             }
 
             Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) != "0");

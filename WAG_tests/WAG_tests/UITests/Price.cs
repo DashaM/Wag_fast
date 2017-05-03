@@ -31,7 +31,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckWhiteawayNo()
         {
-            GoToProductPage("https://www.whiteaway.no/hvitevarer/oppvaskmaskin/innbyggings-oppvaskmaskin/product/siemens-sn478s16ts/");
+            GoToProductPage("https://www.whiteaway.no/hvitevarer/vaskemaskin/frontmatet-vaskemaskin/product/lg-f1496tda3-testvinner/");
             FindPrice();
         }
 

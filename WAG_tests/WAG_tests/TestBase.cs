@@ -1,4 +1,6 @@
 ﻿using System;
+using NUnit.Framework.Interfaces;
+using NUnit.Framework.Internal;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
 using NUnit.Framework;
@@ -23,7 +25,6 @@ namespace WAG_fast
             //firefox.Navigate().GoToUrl(BaseUrl);
         }
 
-
         // methods for all tests
         public void GoToProductPage(string ProductUrl)
         {
@@ -34,14 +35,26 @@ namespace WAG_fast
         public void FindPrice()
         {
 
-            if (firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) == "0")
+            try
             {
-                Screenshot.Snap();
-                Trace.WriteLine("Check out why the test failed. See screenshot", "StateS");
-                Trace.WriteLine(firefox.FindElement(By.ClassName("vip__price-main")).Text);
-            }
 
-            Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) != "0");
+                if (firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) == "0")
+                {
+                    Screenshot.Snap();
+                    Trace.WriteLine("Check out why the test failed. See screenshot", "StateS");
+                    Trace.WriteLine(firefox.FindElement(By.ClassName("vip__price-main")).Text);
+                }
+
+                Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) != "0");
+            }
+            catch (NoSuchElementException)
+            {
+
+                Screenshot.Snap();
+                Trace.WriteLine("No price element", "StateS");
+                Assert.Fail();
+            }
+            
 
         }
 

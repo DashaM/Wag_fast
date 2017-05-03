@@ -1,17 +1,21 @@
 ﻿
+using System.Diagnostics;
 using NUnit.Framework;
+using NUnit.Framework.Interfaces;
+using NUnit.Framework.Internal;
 
 namespace WAG_fast
 {
 
     [SetUpFixture]
-    public class Finalizer
+    public class Finalizer //:TestBase
     {
-         [OneTimeTearDown]    
-       
+
+        [OneTimeTearDown]
         public void RunInTheEndOfAll()
         {
-         WebDriverFactory.DismissAll();
+            WebDriverFactory.DismissAll();
         }
+
     }
 }

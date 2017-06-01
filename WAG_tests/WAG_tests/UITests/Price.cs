@@ -61,7 +61,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckTrettiSe()
         {
-            GoToProductPage("https://www.tretti.se/vitvaror/tvattmaskin/frontmatad-tvattmaskin/product/bosch-wat286i8sn-i-dos/");
+            GoToProductPage("https://www.tretti.se/vitvaror/tvattmaskin/frontmatad-tvattmaskin/product/bosch-waw325i8sn-ersaettande-waw32568sn/");
             FindPrice();
         }
 

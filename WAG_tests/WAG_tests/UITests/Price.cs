@@ -61,7 +61,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckTrettiSe()
         {
-            GoToProductPage("https://www.tretti.se/vitvaror/tvattmaskin/frontmatad-tvattmaskin/product/bosch-waw325i8sn-ersaettande-waw32568sn/");
+            GoToProductPage("https://www.enemo.se/vitvaror/diskmaskiner/underbyggnad/vitvaror/diskmaskiner/underbyggnad/product/siemens-sn436s04ks/");
             FindPrice();
         }
 

@@ -53,7 +53,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckEnemoSe()
         {
-            GoToProductPage("https://www.enemo.se/vitvaror/tvattmaskiner/frontmatad-tvattmaskin/siemens-wm14w447dn/");
+            GoToProductPage("https://www.enemo.se/vitvaror/tvattmaskiner/frontmatad-tvattmaskin/bosch-wat283l8sn/");
             FindPrice();
         }
 

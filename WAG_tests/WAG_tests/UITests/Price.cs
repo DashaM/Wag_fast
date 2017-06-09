@@ -77,7 +77,8 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckTrettiFi()
         {
-            GoToProductPage("https://www.tretti.fi/pienkoneet/polynimuri/polynimuri/product/electrolux-zusgreen58-ultra-silencer-zen-recycled/");
+           // GoToProductPage("https://www.tretti.fi/pienkoneet/polynimuri/polynimuri/product/electrolux-zusgreen58-ultra-silencer-zen-recycled/");
+            GoToProductPage("https://www.tretti.fi/kodinkoneet/pyykinpesukone/edesta-taytettava/product/bosch-wat286i7sn/");
             FindPrice();
         }
 

@@ -38,14 +38,14 @@ namespace WAG_fast
             try
             {
                 firefox.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
-                if (firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) == "0")
+                if (firefox.FindElement(By.ClassName("vip__price-box-price")).Text.Substring(0, 1) == "0")
                 {
                     Screenshot.Snap();
                     Trace.WriteLine("Check out why the test failed. See screenshot", "StateS");
-                    Trace.WriteLine(firefox.FindElement(By.ClassName("vip__price-main")).Text);
+                    Trace.WriteLine(firefox.FindElement(By.ClassName("vip__price-box-price")).Text);
                 }
 
-                Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-main")).Text.Substring(0, 1) != "0");
+                Assert.IsTrue(firefox.FindElement(By.ClassName("vip__price-box-price")).Text.Substring(0, 1) != "0");
             }
             catch (NoSuchElementException)
             {

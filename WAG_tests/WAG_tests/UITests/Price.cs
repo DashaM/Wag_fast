@@ -38,7 +38,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckSkousenNo()
         {
-            GoToProductPage("https://www.skousen.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/bosch-wat283l8sn/");
+            GoToProductPage("https://www.skousen.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/indesit-ewe71483w/");
             FindPrice();
         }
 
@@ -53,7 +53,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckEnemoSe()
         {
-            GoToProductPage("https://www.enemo.se/vitvaror/tvattmaskiner/frontmatad-tvattmaskin/bosch-wat283l8sn/");
+            GoToProductPage("https://www.enemo.se/vitvaror/tvattmaskiner/frontmatad-tvattmaskin/hoover-dmp-413-ah/");
             FindPrice();
         }
 
@@ -61,7 +61,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckTrettiSe()
         {
-            GoToProductPage("https://www.enemo.se/vitvaror/diskmaskiner/underbyggnad/vitvaror/diskmaskiner/underbyggnad/product/siemens-sn436s04ks/");
+            GoToProductPage("https://www.tretti.se/vitvaror/tvattmaskin/toppmatad-tvattmaskin/product/whirlpool-tdlr-60210/");
             FindPrice();
         }
 
@@ -69,7 +69,10 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckTrettiNo()
         {
-            GoToProductPage("https://www.tretti.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/bosch-wat283l8sn/");
+           // GoToProductPage("https://www.tretti.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/bosch-wat283l8sn/");
+
+            GoToProductPage(
+                "https://www.tretti.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/lg-f1496tda3/");
             FindPrice();
         }
 

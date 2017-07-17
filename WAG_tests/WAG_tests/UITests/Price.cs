@@ -31,7 +31,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckWhiteawayNo()
         {
-            GoToProductPage("https://www.whiteaway.no/hvitevarer/vaskemaskin/frontmatet-vaskemaskin/product/lg-f1496tda3-testvinner/");
+            GoToProductPage("https://www.whiteaway.no/hvitevarer/kombiskap/integrert-kombiskap/product/liebherr-ics-3214-20-001/");
             FindPrice();
         }
 
@@ -72,7 +72,7 @@ namespace WAG_fast
            // GoToProductPage("https://www.tretti.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/bosch-wat283l8sn/");
 
             GoToProductPage(
-                "https://www.tretti.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/lg-f1496tda3/");
+                "https://www.tretti.no/hvitevarer/kombiskap/integrert-kombiskap/product/liebherr-ics-3214-20-001//");
             FindPrice();
         }
 

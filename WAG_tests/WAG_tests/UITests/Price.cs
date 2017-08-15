@@ -45,7 +45,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckSkousenDk()
         {
-            GoToProductPage("https://www.skousen.dk/hvidevarer/vaskemaskine/frontbetjent-vaskemaskine/product/lg-f1496tda3-testvinder-2014/");
+            GoToProductPage("https://www.skousen.dk/hvidevarer/opvaskemaskine/underbygnings-opvaskemaskine/product/bosch-smu67mw02s-supersilence/");
             FindPrice();
         }
 

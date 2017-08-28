@@ -45,7 +45,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckSkousenDk()
         {
-            GoToProductPage("https://www.skousen.dk/hvidevarer/opvaskemaskine/underbygnings-opvaskemaskine/product/bosch-smu67mw02s-supersilence/");
+            GoToProductPage("https://www.skousen.dk/hvidevarer/opvaskemaskine/underbygnings-opvaskemaskine/product/siemens-sn457s03ms-inkl-holder-til-vinglas/");
             FindPrice();
         }
 

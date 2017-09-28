@@ -53,7 +53,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckEnemoSe()
         {
-            GoToProductPage("https://www.enemo.se/vitvaror/tvattmaskiner/frontmatad-tvattmaskin/hoover-dmp-413-ah/");
+            GoToProductPage("https://www.enemo.se/vitvaror/tvattmaskiner/frontmatad-tvattmaskin/product/bosch-wat283l8sn/");
             FindPrice();
         }
 

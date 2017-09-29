@@ -82,7 +82,7 @@ namespace WAG_fast
         {
            // GoToProductPage("https://www.tretti.fi/pienkoneet/polynimuri/polynimuri/product/electrolux-zusgreen58-ultra-silencer-zen-recycled/");
            // GoToProductPage("https://www.tretti.fi/kodinkoneet/pyykinpesukone/edesta-taytettava/product/bosch-wat286i7sn/");
-            GoToProductPage("https://www.tretti.fi/kodinkoneet/pyykinpesukone/edesta-taytettava/product/electrolux-fw20l7140/");
+            GoToProductPage("https://www.tretti.fi/kodinkoneet/liesituuletin/seinaan-asennettava-liesituuletin/product/franke-f-600-rf-60-led/");
             FindPrice();
         }
 

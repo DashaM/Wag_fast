@@ -72,7 +72,7 @@ namespace WAG_fast
            // GoToProductPage("https://www.tretti.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/bosch-wat283l8sn/");
 
             GoToProductPage(
-                "https://www.tretti.no/hvitevarer/kombiskap/integrert-kombiskap/product/liebherr-ics-3214-20-001//");
+                "https://www.tretti.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/lg-f4j7ty2w/");
             FindPrice();
         }
 

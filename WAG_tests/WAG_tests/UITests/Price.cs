@@ -31,7 +31,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckWhiteawayNo()
         {
-            GoToProductPage("https://www.whiteaway.no/hvitevarer/kombiskap/integrert-kombiskap/product/liebherr-ics-3214-20-001/");
+            GoToProductPage("https://www.whiteaway.no/hvitevarer/torketrommel/kondens-torketrommel/product/miele-tce530wp/");
             FindPrice();
         }
 

@@ -61,8 +61,8 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckTrettiSe()
         {
-           // GoToProductPage("https://www.tretti.se/vitvaror/tvattmaskin/toppmatad-tvattmaskin/product/whirlpool-tdlr-60210/");
-            GoToProductPage("https://www.tretti.se/tradgard/kladvaard/angstation/product/philips-perfekt-care-demo/");
+            GoToProductPage("https://www.tretti.se/vitvaror/tvattmaskin/toppmatad-tvattmaskin/product/whirlpool-tdlr-60210/");
+           // GoToProductPage("https://www.tretti.se/tradgard/kladvaard/angstation/product/philips-perfekt-care-demo/");
             FindPrice();
         }
 

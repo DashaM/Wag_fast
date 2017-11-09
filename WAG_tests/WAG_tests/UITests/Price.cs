@@ -83,7 +83,7 @@ namespace WAG_fast
         {
            // GoToProductPage("https://www.tretti.fi/pienkoneet/polynimuri/polynimuri/product/electrolux-zusgreen58-ultra-silencer-zen-recycled/");
            // GoToProductPage("https://www.tretti.fi/kodinkoneet/pyykinpesukone/edesta-taytettava/product/bosch-wat286i7sn/");
-            GoToProductPage("https://www.tretti.fi/kauneudenhoitotuote/suunhoito/harjapaa/product/philips-airfloss-interdental-m-unstycke/");
+            GoToProductPage("https://www.tretti.fi/pienkoneet/keittiokone/lisavaruste/product/bosch-muz45kp1/");
             FindPrice();
         }
 

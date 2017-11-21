@@ -78,7 +78,7 @@ namespace WAG_fast
         }
 
 
-        [Test()]
+       /* [Test()]
         public void PriceCheckTrettiFi()
         {
            // GoToProductPage("https://www.tretti.fi/pienkoneet/polynimuri/polynimuri/product/electrolux-zusgreen58-ultra-silencer-zen-recycled/");
@@ -86,7 +86,7 @@ namespace WAG_fast
             GoToProductPage("https://www.tretti.fi/pienkoneet/keittiokone/sauvasekoitin/product/champion-stavmixer-8-p-chstm20-0/");
             FindPrice();
         }
-
+        */
 
     }
 }

@@ -38,7 +38,9 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckSkousenNo()
         {
-            GoToProductPage("https://www.skousen.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/indesit-ewe71483w/");
+           // GoToProductPage("https://www.skousen.no/hvitevarer/vaskemaskin/underkategori-vaskemaskin/product/indesit-ewe71483w/");
+            GoToProductPage("https://www.skousen.no/kjokkenutstyr/kjokkenutstyr/kjokkenvekt/product/caso-cs3260-koekkenvaegt/");
+            
             FindPrice();
         }
 

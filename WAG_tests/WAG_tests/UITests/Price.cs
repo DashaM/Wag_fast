@@ -31,7 +31,7 @@ namespace WAG_fast
         [Test()]
         public void PriceCheckWhiteawayNo()
         {
-            GoToProductPage("https://www.whiteaway.no/hvitevarer/torketrommel/kondens-torketrommel/product/miele-tce530wp/");
+            GoToProductPage("https://www.whiteaway.no/hvitevarer/vaskemaskin/frontmatet-vaskemaskin/product/whirlpool-fscr-70411/");
             FindPrice();
         }
 

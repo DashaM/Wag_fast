@@ -20,16 +20,17 @@ namespace WAG_fast
         [SetUp]
       public void StartBrowser()
         {
-            ChromeOptions option = new ChromeOptions();
-            option.AddArguments("disable-infobars");
-            option.AddArguments("start-maximized");
-            //firefox = WebDriverFactory.GetDriver(DesiredCapabilities.Firefox());
+           // ChromeOptions option = new ChromeOptions();
+           // option.AddArguments("disable-infobars");
+           // option.AddArguments("start-maximized");
+
+            firefox = WebDriverFactory.GetDriver(DesiredCapabilities.Firefox());
            // firefox = WebDriverFactory.GetDriver(DesiredCapabilities.Chrome());
-            firefox = new ChromeDriver(option);
+           // firefox = new ChromeDriver(option);
             
             firefox.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
-           // firefox.Manage().Window.Maximize();
-            //firefox.Navigate().GoToUrl(BaseUrl);
+            firefox.Manage().Window.Maximize();
+           // firefox.Navigate().GoToUrl(BaseUrl);
         }
 
         // methods for all tests

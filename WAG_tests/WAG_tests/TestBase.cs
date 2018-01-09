@@ -2,6 +2,7 @@
 using NUnit.Framework.Interfaces;
 using NUnit.Framework.Internal;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Remote;
 using NUnit.Framework;
 using System.Diagnostics;
@@ -19,9 +20,15 @@ namespace WAG_fast
         [SetUp]
       public void StartBrowser()
         {
-            firefox = WebDriverFactory.GetDriver(DesiredCapabilities.Firefox());
+            ChromeOptions option = new ChromeOptions();
+            option.AddArguments("disable-infobars");
+            option.AddArguments("start-maximized");
+            //firefox = WebDriverFactory.GetDriver(DesiredCapabilities.Firefox());
+           // firefox = WebDriverFactory.GetDriver(DesiredCapabilities.Chrome());
+            firefox = new ChromeDriver(option);
+            
             firefox.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
-            firefox.Manage().Window.Maximize();
+           // firefox.Manage().Window.Maximize();
             //firefox.Navigate().GoToUrl(BaseUrl);
         }
 

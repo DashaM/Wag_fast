@@ -79,7 +79,7 @@ namespace WAG_fast
             FindPrice();
         }
 
-
+        //
        /* [Test()]
         public void PriceCheckTrettiFi()
         {
